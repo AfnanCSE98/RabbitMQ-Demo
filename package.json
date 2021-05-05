@@ -1,0 +1,19 @@
+{
+  "name": "rabbitmq-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "node-gmail-api": "^1.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "quran": "^0.0.9"
+  }
+}
