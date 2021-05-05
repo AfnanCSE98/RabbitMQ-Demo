@@ -1,4 +1,6 @@
 # RabbitMQ-Demo
+This is a simple demo of RabbitMQ with NodeJS.You can publish a message(in this case , a number) in the queue and the consumer will receive the number and calculate how many Unique BST can be formed with that number of nodes.
+
 ### How to run
 Spin up a docker container of rabbitmq image
 ```
